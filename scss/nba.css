@@ -1,0 +1,80 @@
+header,
+button,
+header:hover {
+  background-color: #ffb201;
+}
+
+header {
+  color: #0a2241;
+  font: bolder;
+  height: 250px;
+}
+
+h1 {
+  font: 4em bolder;
+  text-align: center;
+  padding-top: 5%;
+}
+
+button {
+  color: #0a2241;
+}
+
+header:hover {
+  background: url(./ja2.jpeg);
+  background-size: cover;
+  height: 250px;
+  color: #ffb201;
+}
+
+body {
+  background-color: #0a2241;
+}
+
+#playoffP {
+  margin-left: 40%;
+}
+
+.dropdown-item {
+  font-weight: bold;
+  border-bottom: black;
+  border-width: 3px;
+  border-bottom: 1px black solid;
+}
+
+#grizz {
+  font: 4em bolder;
+  text-align: center;
+  padding-top: 5%;
+  color: #ffb201;
+}
+
+table {
+  border-spacing: 1em 3em;
+  padding: 3 2em 1em 3;
+  border: 4px groove #ffb201;
+  width: 50vw;
+  margin-left: 330px;
+}
+
+td {
+  width: 3em;
+  height: 1.5em;
+  background: #d2d2d2;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: #ffb201 solid 2px;
+}
+
+#teamsInfo {
+  FONT-WEIGHT: 600;
+}
+
+#games {
+  color: #7a99c0;
+  margin: 50px;
+  font: 40px bolder;
+  text-align: center;
+  background: #d2d2d2;
+}
+/*# sourceMappingURL=nba.css.map */

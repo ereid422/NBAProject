@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Teams</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/nba.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script></head>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="./NBA.js"></script>
+  </head>
+<body>
+    <header role="banner m-1">
+        <h1>Memphis Playoff Center</h1>
+    </header>
+    <div class="container-fluid">
+        <div class="dropdown m-1">
+            <button type="button" class="btn btn-d dropdown-toggle" id="dropdownMenu" data-toggle="dropdown" style="background-color: black; color: blanchedalmond;" > Menu <span class="badge" style="background: #ffb201;">16</span></button>
+            <div class="dropdown-menu" style="background-color: #7a99c0;" aria-labelledby="dropdownMenuButton">
+                <a class="dropdown-item" id="games1" href="#">Games</a>
+                <a class="dropdown-item" id="stats" href="#">Stats</a>
+              
+            </div>
+            <div>
+                <img id="playoffP" src="./memphis.jpeg" alt="Playoff Picture">
+            </div>
+            <div>
+                <p id="grizz"> GO GRIZZLIES!!</p>
+            </div>
+            <div id="games">
+              Games
+            </div>
+            <table>
+                <table>
+                    <tbody id="teamsInfo" col-md-2></tbody>
+                  </table>
+            </table>
+            <table>
+              <tbody id="teamsStats"></tbody>
+            </table>
+        </div>
+    </div>
+    <script>
+      $('#playoffP').on('mouseenter', function(){
+           $('#grizz').toggle();
+        });
+    </script>
+  </body>
+</html>

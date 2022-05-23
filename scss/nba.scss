@@ -1,0 +1,73 @@
+
+$primary-color: #ffb201;
+$secondary-color: #d2d2d2;
+$third-color: #0a2241;
+header,
+button,
+header:hover{
+    background-color: $primary-color;
+}
+header{
+    color: $third-color;
+    font: bolder;
+    height: 250px;
+}
+h1{
+    font: 4em bolder;
+    text-align: center;
+    padding-top: 5%;
+}
+button{
+    color: #0a2241;
+}
+header:hover {
+    background: url(./ja2.jpeg);
+    background-size:cover;
+    height: 250px;
+    color: $primary-color;
+
+}
+body{
+    background-color: $third-color;
+}
+#playoffP{
+    margin-left: 40%;
+
+}
+.dropdown-item{
+    font-weight: bold;
+    border-bottom: black;
+    border-width: 3px;
+    border-bottom: 1px black solid;
+}
+#grizz{
+    font: 4em bolder;
+    text-align: center;
+    padding-top: 5%;
+    color: $primary-color;
+  }
+table{
+    border-spacing: 1em 3em;
+  padding: 3 2em 1em 3;
+  border: 4px groove $primary-color;
+    width: 50vw;
+    margin-left: 330px;
+}
+td {
+    width: 3em;
+    height: 1.5em;
+    background: $secondary-color;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: $primary-color solid 2px;
+  }
+  #teamsInfo{
+    FONT-WEIGHT: 600;
+  }
+  #games{
+      color: #7a99c0;
+      margin: 50px;
+      font: 40px bolder;
+      text-align: center;
+    background: $secondary-color;
+  }
